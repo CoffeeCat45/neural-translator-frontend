@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  background: #050c16;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: Aptos, 'Segoe UI Variable', 'Segoe UI', Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:
+    radial-gradient(circle at top left, rgba(52, 198, 175, 0.14), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(245, 179, 110, 0.12), transparent 28%),
+    linear-gradient(180deg, #07111f 0%, #040810 100%);
+}
+
+button,
+select,
+input,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
 }

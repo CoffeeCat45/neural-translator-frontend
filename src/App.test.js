@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders voice translator heading', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByText(/voice translator interface/i)).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: /start recording/i })).toBeInTheDocument();
+  expect(screen.getByText(/interface language/i)).toBeInTheDocument();
 });
