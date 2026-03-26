@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CoffeeCat45/neural-translator-frontend/static/css/main.445e9aca.css",
+    "main.js": "/CoffeeCat45/neural-translator-frontend/static/js/main.6287cc82.js",
+    "index.html": "/CoffeeCat45/neural-translator-frontend/index.html",
+    "main.445e9aca.css.map": "/CoffeeCat45/neural-translator-frontend/static/css/main.445e9aca.css.map",
+    "main.6287cc82.js.map": "/CoffeeCat45/neural-translator-frontend/static/js/main.6287cc82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.445e9aca.css",
+    "static/js/main.6287cc82.js"
+  ]
+}
